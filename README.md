@@ -38,14 +38,6 @@ We deployed the application on Azure. With Azure, we could ensure high availabil
 6. Run **'npm start'** in the QuickBite.UI directory to start the frontend server.
 7. Open **'http://localhost:3000'** in your browser to access the application.
 
-### Contributors
-
-- [Samet Kurt](https://github.com/sammkrt)
-- [Daniel Morillas](https://github.com/LieC4)
-- [Anitas Vlad](https://github.com/AnitasVlad)
 
 ### License
 This project is licensed under the MIT License.
-
-
-
