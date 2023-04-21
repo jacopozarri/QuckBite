@@ -1,0 +1,23 @@
+.header-main {
+  display: flex;
+}
+.header-img {
+  display: inline-block;
+  margin: 15px 0 20px 15px;
+  width: 50px;
+}
+.header-h1 {
+  color: #fa7d09;
+  display: inline-block;
+}
+.header-button {
+  background: #fa7d09;
+  border: 0;
+  border-radius: 25px;
+  color: #1f262e;
+  font-size: 15px;
+  margin: 20px;
+  padding: 2px 12px;
+  position: absolute;
+  right: 0;
+}

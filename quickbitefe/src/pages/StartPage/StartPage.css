@@ -1,0 +1,40 @@
+.start-main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.start-h1 {
+  font-size: 50px;
+  margin-top: 50px;
+}
+.start-img {
+  align-self: center;
+  margin: 50px;
+  width: 125px;
+}
+.start-section {
+  background: #fa7d09;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: auto;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+.start-h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.start-button {
+  background: #f8ece0;
+  border: 0;
+  border-radius: 25px;
+  color: #1f262e;
+  font-size: 35px;
+  margin-bottom: 10px;
+  padding: 10px 60px;
+  width: 275px;
+}
+.start-p {
+  font-size: 20px;
+}

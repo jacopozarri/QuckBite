@@ -1,0 +1,32 @@
+!!!!!!!!!! : The price for delivery should be calculated only once (for each restaurant from which we order) !!!!!!!!!!!
+
+PAIN POINT : 
+- When ordering, we should calculate the delivery price not for every dish, -_-_-but for every restaurant-_-_-
+
+
+
+=== === === === === === === === === === === === === === === === === === === === === === === === === === === === === === 
+
+
+Fix adding dish to cart and applying / (or not) delivery cost.
+When deleting, must calculate back the total price without the deleted items
+
+
+=== === === === === === === === === === === === === === === === === === === === === === === === === === === === === === 
+
+
+var cartDishFromDb = cart.CartDishes.SingleOrDefault(cartDish => cartDish.DishId == request.DishId); <==> can be turned into one method that 
+=> public Task<CartDish> GetCartDishForUser(int userId, int dishId){...} 
+
+
+=== === === === === === === === === === === === === === === === === === === === === === === === === === === === === === 
+
+
+- verifications for user input. Example: request.Quantity should always be greater or equal than 0.
+
+- CartDish should have a property: double cartDishPrice. would make the job easier and maybe cleaner. 
+
+=== === === === === === === === === === === === === === === === === === === === === === === === === === === === === === 
+- Make service properties readonly.
+- Change controllers from /api/controllerName ==> /controllerName.
+- Add DeliveryCost and subtotal. DishPrice * Quantity.

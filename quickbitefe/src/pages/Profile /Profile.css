@@ -1,0 +1,25 @@
+.profile-img {
+  width: 50px;
+  background: #fa7d09;
+  border-radius: 100px;
+  padding: 10px;
+}
+.profile-section {
+  background: #444141;
+  border-radius: 25px;
+  margin: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.profile-p {
+  margin: 30px;
+}
+.profile-button {
+  background: #fa7d09;
+  border: 0;
+  border-radius: 25px;
+  color: #1f262e;
+  font-size: 15px;
+  margin-bottom: 20px;
+  padding: 2px 12px;
+}

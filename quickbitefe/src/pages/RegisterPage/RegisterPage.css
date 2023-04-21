@@ -1,0 +1,58 @@
+.register-main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.register-h1 {
+  margin-top: 50px;
+  font-size: 50px;
+}
+.register-img {
+  align-self: center;
+  margin: 50px;
+  width: 125px;
+}
+.register-section {
+  background: #fa7d09;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: auto;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+.register-h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.register-p {
+  color: #1f262e;
+  display: inline-block;
+  font-size: 20px;
+  text-align: left;
+  width: 60px;
+}
+.register-input {
+  background: #1f262e;
+  border: 0;
+  border-radius: 10px;
+  color: #f8ece0;
+  font-size: 20px;
+  margin-left: 50px;
+  padding: 10px 10px 10px 10px;
+  width: 200px;
+}
+.register-button {
+  background: #f8ece0;
+  border: 0;
+  border-radius: 25px;
+  color: #1f262e;
+  font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px 60px;
+  width: 275px;
+}
+.register-input-error{
+  color: #fa7d09;
+}

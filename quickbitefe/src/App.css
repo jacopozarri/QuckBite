@@ -1,0 +1,26 @@
+@font-face {
+  font-family: myFont;
+  src: url(../public/assets/PTSansNarrow-Regular.ttf);
+}
+body {
+  background: #1f262e;
+  color: #f8ece0;
+  font-family: myFont;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 80px;
+}
+button:hover {
+  cursor: pointer;
+}
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+a:visited {
+  color: inherit;
+}
+::placeholder {
+  color: #f8ece0;
+}

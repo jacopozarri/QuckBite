@@ -1,0 +1,17 @@
+.itemcard-img {
+  width: 80px;
+}
+.itemcard-figure {
+  background: #444141;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.itemcard-dish-price {
+  color: #fa7d09;
+}
+.itemcard-info {
+  text-align: left;
+}

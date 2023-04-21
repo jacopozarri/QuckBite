@@ -1,0 +1,17 @@
+.restaurantgallery-figure {
+  background: #444141;
+  border-radius: 25px;
+  font-size: 15px;
+  display: flex;
+  margin: 10px;
+}
+.restaurantgallery-img {
+  width: 150px;
+  height: 150px;
+  margin: 10px 35px 10px 10px;
+  border-radius: 15px;
+}
+.restaurantgallery-h2 {
+  color: #fa7d09;
+  font-size: 20px;
+}
